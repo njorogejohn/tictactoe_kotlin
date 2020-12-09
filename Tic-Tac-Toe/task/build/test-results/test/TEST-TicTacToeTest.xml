@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TicTacToeTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-12-09T11:34:52" hostname="njoro" time="0.591">
+  <properties/>
+  <testcase name="start" classname="TicTacToeTest" time="0.591">
+    <failure message="java.lang.AssertionError: Wrong answer in test #1&#10;&#10;For two fields following each other one is not a continuation of the other (they differ more than in two places).&#10;&#10;Please find below the output of your program during this failed test.&#10;Note that the '&gt;' character indicates the beginning of the input line.&#10;&#10;---&#10;&#10;---------&#10;| _ _ _ |&#10;| _ _ _ |&#10;| _ _ _ |&#10;---------&#10;Enter the coordinates: &#10;&gt; 2 2&#10;---------&#10;| _ _ _ |&#10;| _ X _ |&#10;| _ _ _ |&#10;---------&#10;Enter the coordinates: &#10;&gt; 2 1&#10;---------&#10;| _ _ _ |&#10;| O X _ |&#10;| _ _ _ |&#10;---------&#10;Enter the coordinates: &#10;&gt; 3 1&#10;---------&#10;| _ _ _ |&#10;| O X _ |&#10;| X _ _ |&#10;---------&#10;Enter the coordinates: &#10;&gt; 2 2&#10;---------&#10;| _ _ _ |&#10;| O O _ |&#10;| X _ _ |&#10;---------&#10;Enter the coordinates: &#10;&gt; 2 3&#10;---------&#10;| _ _ _ |&#10;| O O O |&#10;| X _ _ |&#10;---------&#10;O wins" type="java.lang.AssertionError">java.lang.AssertionError: Wrong answer in test #1
+
+For two fields following each other one is not a continuation of the other (they differ more than in two places).
+
+Please find below the output of your program during this failed test.
+Note that the '&gt;' character indicates the beginning of the input line.
+
+---
+
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+Enter the coordinates: 
+&gt; 2 2
+---------
+| _ _ _ |
+| _ X _ |
+| _ _ _ |
+---------
+Enter the coordinates: 
+&gt; 2 1
+---------
+| _ _ _ |
+| O X _ |
+| _ _ _ |
+---------
+Enter the coordinates: 
+&gt; 3 1
+---------
+| _ _ _ |
+| O X _ |
+| X _ _ |
+---------
+Enter the coordinates: 
+&gt; 2 2
+---------
+| _ _ _ |
+| O O _ |
+| X _ _ |
+---------
+Enter the coordinates: 
+&gt; 2 3
+---------
+| _ _ _ |
+| O O O |
+| X _ _ |
+---------
+O wins
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.hyperskill.hstest.stage.StageTest.start(StageTest.java:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</failure>
+  </testcase>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+Enter the coordinates: 
+> 2 2
+---------
+| _ _ _ |
+| _ X _ |
+| _ _ _ |
+---------
+Enter the coordinates: 
+> 2 1
+---------
+| _ _ _ |
+| O X _ |
+| _ _ _ |
+---------
+Enter the coordinates: 
+> 3 1
+---------
+| _ _ _ |
+| O X _ |
+| X _ _ |
+---------
+Enter the coordinates: 
+> 2 2
+---------
+| _ _ _ |
+| O O _ |
+| X _ _ |
+---------
+Enter the coordinates: 
+> 2 3
+---------
+| _ _ _ |
+| O O O |
+| X _ _ |
+---------
+O wins
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
