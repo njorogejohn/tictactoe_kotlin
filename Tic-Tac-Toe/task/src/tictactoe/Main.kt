@@ -1,6 +1,5 @@
 package tictactoe
 
-import java.beans.beancontext.BeanContextServiceRevokedEvent
 import java.util.*
 
 fun main() {
@@ -102,8 +101,7 @@ private fun makeAMove(allNumbers: Boolean, validNumbers: Boolean, occupiedCell: 
             }
 
             //check if the position is blank
-            val movesBoard = field.toCharArray()
-            occupiedCell1 = if (movesBoard[position1 - 1] != '_') {
+            occupiedCell1 = if (moves[position1 - 1] != '_') {
                 println("This cell is occupied! Choose another one!")
                 true
             } else {
@@ -115,10 +113,12 @@ private fun makeAMove(allNumbers: Boolean, validNumbers: Boolean, occupiedCell: 
 
     val plays = moves.filter { it != '_' }.count()
 
-    moves[position1 - 1] = when {
-        plays == 0 -> 'X'
-        plays % 2 == 0 -> 'X'
-        else -> 'O'
+    if(moves[position1 - 1] == '_') {
+        moves[position1 - 1] = when {
+            plays == 0 -> 'X'
+            plays % 2 == 0 -> 'X'
+            else -> 'O'
+        }
     }
 
     printTheBoard(moves)

@@ -551,18 +551,8 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/projects/123/stages/658/implement#comment
-status: Failed
+status: Solved
 feedback:
-  message: "Wrong answer in test #1\n\nFor two fields following each other one is\
-    \ not a continuation of the other (they differ more than in two places).\n\nPlease\
-    \ find below the output of your program during this failed test.\nNote that the\
-    \ &#39;&gt;&#39; character indicates the beginning of the input line.\n\n---\n\
-    \n---------\n| _ _ _ |\n| _ _ _ |\n| _ _ _ |\n---------\nEnter the coordinates:\
-    \ \n&gt; 2 2\n---------\n| _ _ _ |\n| _ X _ |\n| _ _ _ |\n---------\nEnter the\
-    \ coordinates: \n&gt; 2 1\n---------\n| _ _ _ |\n| O X _ |\n| _ _ _ |\n---------\n\
-    Enter the coordinates: \n&gt; 3 1\n---------\n| _ _ _ |\n| O X _ |\n| X _ _ |\n\
-    ---------\nEnter the coordinates: \n&gt; 2 2\n---------\n| _ _ _ |\n| O O _ |\n\
-    | X _ _ |\n---------\nEnter the coordinates: \n&gt; 2 3\n---------\n| _ _ _ |\n\
-    | O O O |\n| X _ _ |\n---------\nO wins"
-  time: Wed, 09 Dec 2020 11:34:54 UTC
+  message: Congratulations!
+  time: Wed, 09 Dec 2020 12:03:35 UTC
 record: 4
